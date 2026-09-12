@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std; 
+int main(){
+    int dias;
+    cout << "ingrese los dias: ";
+    cin >> dias;
+    int semanas = dias/7;
+    int restan = dias % 7;
+    cout << "semanas: " << semanas<< endl;
+    cout <<" dias: " << restan << endl;
+    return 0;
+}
