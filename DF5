@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int numero;
+    cin >> numero;
+    int a= numero/365;
+    int m= (numero%365)/30;
+    int d= (numero%365)%30;
+    cout << "Años: " << a << endl;
+    cout << "Mese: " << m << endl;
+    cout << "dias: "<< d << endl;
+    return 0;
+}
