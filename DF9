@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+   cout << "ingrese su number: ";
+   int es;
+   cin >> es;
+   int bus = es/40;
+   int x = es%40;
+   int mv = x/10;
+   int y = x %10;
+   int t = y/4;
+   int p = y%4;
+   cout << "Bus: " << bus << endl;
+   cout << "Minivan: " << mv << endl;
+   cout << "Taxi: " << t << endl;
+   cout << "Particular: " << p << endl;
+
+    return 0;
+}
