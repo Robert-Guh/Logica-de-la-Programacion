@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+   cout << "ingrese su number: ";
+   int horas;
+   cin >> horas;
+   int s = horas/40;
+   int x = horas%40;
+   int dias = x / 8;
+   int res = x % 8;
+   cout << "semanas laborables: " << s << endl;
+   cout << "dias laborables: " << dias  << endl;
+   cout << "horas laborables: " << res << endl;
+
+    return 0;
+}
