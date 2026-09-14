@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+   cout << "ingrese su number: ";
+   int p;
+   cin>> p;
+   int x = p%240;
+   int l =p / 240;
+   int c =x/12;
+   int r = x%12;
+   cout << "Libras: " << l << endl;
+   cout << "Chelines: " << c << endl;
+   cout << "peniques: " << r << endl;
+   
+
+    return 0;
+}
