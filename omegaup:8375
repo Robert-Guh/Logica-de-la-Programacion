@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+   cout << "ingrese A: ";
+   int A, B;
+   cin >> A;
+   cout << "ingrese B: ";
+   cin >> B;
+   if((A-B)>0){
+    cout << "El negocio si va a jalar\n" << (A-B);
+   } else {
+    cout << "Dejalo ya esta muerto\n" << (B-A);
+   }
+    return 0;
+}
