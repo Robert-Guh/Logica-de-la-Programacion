@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+   cout << "ingrese los number: \n";
+   int A, N, M;
+   cin >> A;
+   cin >> N;
+   cin >> M;
+   if(A==N && N==M){
+    cout << "ELLA TE AMA";
+   } else {
+    cout << "ELLA NO TE AMA";
+   }
+
+   
+    return 0;
+}
