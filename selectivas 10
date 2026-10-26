@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cin >> x;
+    if (x > 20){
+        cout << "numero no es menor a 20" << endl;
+
+    } else {
+        switch(x){
+            case 2: cout << "numero primo" << endl; break;
+            case 3: cout << "numero primo" << endl; break;
+            case 5: cout << "numero primo" << endl; break;
+            case 7: cout << "numero primo" << endl; break;
+            case 11: cout << "numero primo" << endl; break;
+            case 13: cout << "numero primo" << endl; break;
+            case 17: cout << "numero primo" << endl; break;
+            case 19: cout << "numero primo" << endl; break;
+            default: cout << "numero no es primo" << endl; break;
+        }
+    }
+    return 0;
+}
