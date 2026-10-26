@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x, y, z;
+    cin >> x;
+    y = x % 10;
+    z =x / 10;
+    if(y > x){
+        if(y % x == 0){
+            cout << "numero multiplo con un digito del otro" << endl;
+
+        } else {
+            cout << "un numero no es multiplo del otro" << endl;
+        } 
+    } else {
+        if ( x % y == 0){
+            cout << "numero multiplo con un digito del otro" << endl;
+        } else {
+            cout << "un numero no es multiplo del otro" << endl;
+        }
+    }
+    return 0;
+}
