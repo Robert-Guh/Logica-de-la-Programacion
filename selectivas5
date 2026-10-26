@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int nu;
+    cin >> nu;
+    if(nu % 10 == 4) {
+        cout << "termina en 4" << endl;
+    } else {
+        cout << "no termina en 4" << endl;
+    }
+    return 0;
+}
