@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x, y, z;
+    cin >> x;
+    if(x >= 10 && x <= 99){
+        y = x % 10;
+        z = x / 10;
+        int n = y + z;
+        cout << n << endl;
+    } else {
+        cout << "numero no es de 2 digitos" << endl;
+    }
+    return 0;
+}
