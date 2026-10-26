@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int nu;
+    cin >> nu;
+    if(nu >= 100 && nu <=999){
+        cout << "numero de 3 cifras" << endl;
+    } else {
+        cout << "numero no es de 3 cifras" << endl;
+    }
+    return 0;
+}
