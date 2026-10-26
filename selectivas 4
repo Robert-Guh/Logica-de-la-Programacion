@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cin >> n;
+    if (n <=0){
+        cout << "persona no existente" << endl;
+    }
+    if(n <= 3){
+        cout << "BEBE" << endl;
+    } else {
+        if (n <= 14){
+            cout << "niño" << endl;
+        } else {
+            if (n <= 18){
+                cout << "adolescente" << endl;
+            } else {
+                cout << "adulto" << endl;
+            }
+        }
+    }
+    return 0;
+}
