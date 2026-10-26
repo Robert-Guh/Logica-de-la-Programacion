@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int nu;
+    cin >> nu;
+    if( nu < 0){
+        cout << "numero es negativo" << endl;
+    } else {
+        cout << "numero es positivo" << endl;
+    }
+    return 0;
+}
