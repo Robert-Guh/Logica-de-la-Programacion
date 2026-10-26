@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num, inv = 0;
+    cout << "enter your numero\n";
+    cin >> num;
+    for(; num > 0; num /= 10) {
+        inv = inv * 10 + num % 10;
+    }
+    cout << "el numero invertido es: " << inv << endl;
+    return 0;
+}
