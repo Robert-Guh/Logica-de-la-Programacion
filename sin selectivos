@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, x, y;
+    cin >> a >> b;
+    x = a * (a>=b) + b * (b>a);
+    y = a * (a<=b) + b * (b<a);
+    cout << "numero mayor: " << x << endl;
+    cout << "numero menor: " << y << endl;
+    return 0;
+}
